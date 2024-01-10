@@ -1,7 +1,11 @@
+<?php
+$title='Prueba PHP';
+?>
+
 <html>
 
 <head>
-    <title>Prueba</title>
+    <title><?=$title?></title>
 </head>
 
 <body>
