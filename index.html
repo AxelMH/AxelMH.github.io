@@ -16,6 +16,7 @@
         itaque id tenetur, quae consequatur enim minima temporibus possimus, eveniet quos dolorem. Quasi iure,
         exercitationem totam eaque soluta tenetur, eos inventore, ratione est provident quos quaerat?</p>
     <a href="prueba.html">link html</a>
+
     <select>
         <option>cosa 1</option>
         <option>cosa 2</option>
@@ -23,6 +24,14 @@
         <option>cosa 4</option>
     </select>
     <input type="text">
+    <p id="pruebita">1</p>
+    <button onclick="pruebita()">pruebita++</button>
+    <script>
+        function pruebita() {
+            document.getElementById('pruebita').innerHTML = document.getElementById('pruebita').innerHTML * 1 + 1;
+        }
+    </script>
 </body>
+
 
 </html>
